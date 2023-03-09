@@ -1,0 +1,54 @@
+User data
+{
+  "provider": "linkedin",
+  "uid": "344344",
+  "info": {
+    "name": "Otto Schoen",
+    "email": "schoen.otto@example.com",
+    "nickname": "Otto Schoen",
+    "first_name": "Otto",
+    "last_name": "Schoen",
+    "location": "South Larrainetown, Nebraska",
+    "description": "Expedita ea natus porro.",
+    "image": "https://via.placeholder.com/300x300.png",
+    "phone": "609-654-0858 x94126",
+    "headline": "Expedita ea natus porro.",
+    "industry": "Games",
+    "urls": {
+      "public_profile": "http://www.linkedin.com/in/ottoschoen"
+    }
+  },
+  "credentials": {
+    "token": "0cd45f04a18fac19668a886b166fb321",
+    "secret": "750318f671186118e16c2bbe52144717"
+  },
+  "extra": {
+    "access_token": {
+      "token": "0cd45f04a18fac19668a886b166fb321",
+      "secret": "750318f671186118e16c2bbe52144717",
+      "consumer": null,
+      "params": {
+        "oauth_token": "0cd45f04a18fac19668a886b166fb321",
+        "oauth_token_secret": "750318f671186118e16c2bbe52144717",
+        "oauth_expires_in": 1709124407,
+        "oauth_authorization_expires_in": 1696981384
+      },
+      "response": null
+    },
+    "raw_info": {
+      "firstName": "Otto",
+      "headline": "Expedita ea natus porro.",
+      "id": "344344",
+      "industry": "Games",
+      "lastName": "Schoen",
+      "location": {
+        "country": {
+          "code": "ec"
+        },
+        "name": "Veumton"
+      },
+      "pictureUrl": "https://via.placeholder.com/300x300.png",
+      "publicProfileUrl": "http://www.linkedin.com/in/ottoschoen"
+    }
+  }
+}
