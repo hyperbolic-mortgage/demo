@@ -1,0 +1,16 @@
+from google.cloud import language_v1
+
+def authenticate_with_api_key(quota_project_id: str) -> None:
+    # Initialize the Language Service client and set the API key and the quota project id.
+    client = language_v1.LanguageServiceClient(client_options={"api_key": "AIzaSyBJm7CoylH_zhLfmnLNoWDljBtVesNmSrw",
+                                                               "quota_project_id": quota_project_id})
+    text = "Hello, world!"
+    document = language_v1.Document(
+        content=text, type_=language_v1.Document.Type.PLAIN_TEXT
+    )
+
+    # Make a request to analyze the sentiment of the text.
+    sentiment = client.analyze_sentiment(
+        request={"document": document}
+    ).document_sentiment
+
