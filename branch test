@@ -1,0 +1,23 @@
+// Active Key -Nightfall - CURL example
+curl --location --request POST 'https://api.nightfall.ai/v3/scan' \
+         --header 'x-api-key: NF-jJvPCyf1DiXcxfNTeGIDGlvX4MjHy0xX' \
+         --request POST \
+         --header 'content-type: application/json' \
+         --data-raw '{
+             "payload":["hello world"],
+             "policy":{
+                "detectionRules":[
+                    {
+                        "detectors":[
+                            {
+                                "minNumFindings": 1,
+                                "minConfidence":"POSSIBLE",
+                                "detectorType":"NIGHTFALL_DETECTOR",
+                                "nightfallDetector":"API_KEY"
+                            }
+                        ],
+                        "logicalOp":"ANY"
+                    }
+                 ]
+             }
+         }'
