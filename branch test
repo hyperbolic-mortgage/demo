@@ -1,22 +1,4 @@
-curl --location --request POST 'https://api.nightfall.ai/v3/scan' \
-         --header 'x-api-key: NF-jJvPCyf1DiXcxfNTeGIDGlvX4MjHy0xX' \
-         --request POST \
-         --header 'content-type: application/json' \
-         --data-raw '{
-             "payload":["hello world"],
-             "policy":{
-                "detectionRules":[
-                    {
-                        "detectors":[
-                            {
-                                "minNumFindings": 1,
-                                "minConfidence":"POSSIBLE",
-                                "detectorType":"NIGHTFALL_DETECTOR",
-                                "nightfallDetector":"API_KEY"
-                            }
-                        ],
-                        "logicalOp":"ANY"
-                    }
-                 ]
-             }
-         }'
+aws_access_key_id = AKIA2OGYBAH6UREMKH4Q
+aws_secret_access_key = 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
+output = json
+region = us-east-2
