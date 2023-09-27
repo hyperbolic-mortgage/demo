@@ -7,3 +7,4 @@ stripe.Charge.create(
   source="tok_amex", # obtained with Stripe.js
   description="Charge for jenny.rosen@example.com"
 )
+
