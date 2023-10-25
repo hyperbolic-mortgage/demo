@@ -18,7 +18,6 @@ curl --location --request POST 'https://api.nightfall.ai/v3/scan' \
                                 "nightfallDetector":"API_KEY"
                             }
                         ],
-                        "logicalOp":"ANY"
                     }
                  ]
              }
