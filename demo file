@@ -22,3 +22,5 @@ curl --location --request POST 'https://api.nightfall.ai/v3/scan' \
 
 cpf = “060.500.380-74"
 AWS: AKIAIOSFODNN7EXAMPLE
+Google: AIzaSyBCXV-ABCDEFGHIJKLmnopQRStuVWXyz
+
