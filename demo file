@@ -25,5 +25,3 @@ AWS: AKIAIOSFODNN7EXAMPLE
 Google: AIzaSyBCXV-ABCDEFGHIJKLmnopQRStuVWXyzkk
 
 slack_webhook_url = “https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
-
-slack_webhook_url = "https://hooks.slack.com/services/T123456789/B123456789/XXXXXXXXXXXXXXXXXXXXXXXX"
