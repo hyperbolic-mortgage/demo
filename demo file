@@ -24,4 +24,4 @@ cpf = “060.500.380-74"
 AWS: AKIAIOSFODNN7EXAMPLE
 Google: AIzaSyBCXV-ABCDEFGHIJKLmnopQRStuVWXyzkk
 
-https://hooks.slack.com/services/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
+slack_webhook_url = “https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
