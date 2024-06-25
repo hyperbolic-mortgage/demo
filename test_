@@ -1,0 +1,3 @@
+aws_secret_access_key = 7jhmSchApYAMogD9MtkuuMYJ0FD6llTYAv4wOPmM
+output = json
+region = us-east-2
