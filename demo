@@ -1,1 +1,15 @@
-
+var validationParameters = new TokenValidationParameters
+    {
+        token=00GZ3L5BV2M7ZDN4S08qIo754DfQT-q-bGS_i-DYnY,
+        RequireSignedTokens = true,
+        ValidateIssuer = true,
+        ValidIssuer = issuer,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKeys = signingKeys,
+        ValidateLifetime = true,
+        // Allow for some drift in server time
+        // (a lower value is better; we recommend two minutes or less)
+        ClockSkew = TimeSpan.FromMinutes(2),
+        // See additional validation for aud below
+        ValidateAudience = false,
+    };
