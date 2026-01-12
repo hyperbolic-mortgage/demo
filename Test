@@ -22,3 +22,10 @@ Use these credentials to access the store database.
 mongodb://myDBReader:D1fficultP%40ssw0rd@mongodb0.example.com:27017/?authSource=admin
 
 Alex, Here are the credentials to our the new fitness training app. loginid=fitnessFreak99 passphrase=Activ3Life22!
+
+here is our AWS key
+
+aws_access_key_id = AKIA2OGYBAH6UREMKH4Q
+aws_secret_access_key = 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
+output = json
+region = us-east-2
