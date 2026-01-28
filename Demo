@@ -16,3 +16,7 @@ Use these credentials to access the store database.
 mongodb://myDBReader:D1fficultP%40ssw0rd@mongodb0.example.com:27017/?authSource=admin
 
 Alex, Here are the credentials to our the new fitness training app. loginid=fitnessFreak99 passphrase=Activ3Life22!
+
+
+import stripe stripe.api_key = "sk_live_4eC39HqLyjWDarjtT1zdp7dcTYooMQauvdEDq54NiTphI7jx"
+stripe.Charge.create( amount=2000, currency="usd", source="tok_amex", # obtained with Stripe.js description="Charge for jenny.rosen@example.com" )
